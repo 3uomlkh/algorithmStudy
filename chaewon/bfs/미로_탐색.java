@@ -34,7 +34,7 @@ public class 미로_탐색 {
             }
         }
 
-        bfs();
+        bfs(); // bfs 시작
         System.out.println(maze[n-1][m-1]); // 배열의 가장 마지막 요소(== 최단거리) 출력
     }
 
