@@ -12,8 +12,8 @@ public class 사과_담기_게임_2828 {
         int M = Integer.parseInt(st.nextToken());
         int J = Integer.parseInt(br.readLine());
 
-        int start = 1;
-        int end = M;
+        int start = 1; // 바구니 시작
+        int end = M; // 바구니 끝
         int result = 0;
         while (J-- > 0) {
             int apple = Integer.parseInt(br.readLine());
