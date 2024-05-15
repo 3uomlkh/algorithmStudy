@@ -28,8 +28,10 @@ public class 특정_거리의_도시찾기 {
         }
 
         int[] check = new int[n + 1];
+
         Queue<Integer> q = new LinkedList<>();
         q.add(x);
+
         while (!q.isEmpty()) {
             int c = q.poll();
             for (int i = 0; i < city[c].size(); i++) {
