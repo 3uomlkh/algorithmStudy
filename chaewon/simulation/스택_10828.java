@@ -23,6 +23,7 @@ public class 스택_10828 {
                 case "top" -> sb.append(top()).append("\n");
             }
         }
+        System.out.println(sb);
     }
 
     public static void push(int num) {
@@ -44,7 +45,7 @@ public class 스택_10828 {
     }
 
     public static int empty() {
-        if (size == 0) return -1;
+        if (size == 0) return 1;
         else return 0;
     }
 
